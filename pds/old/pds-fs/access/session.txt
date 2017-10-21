@@ -1,0 +1,4 @@
+./maccess -r -w -v maccess.c 
+./maccess -r -x -v maccess.c
+./maccess -r -w -v Makefile
+./maccess -r -x -v test

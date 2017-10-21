@@ -1,0 +1,23 @@
+Exo1
+-----
+Q1. project[fnom](Fournisseurs);
+
+Q2.select[fad='Paris'](Fournisseurs);
+
+Q3.project[fnom](select[fad='Paris'](Fournisseurs));
+
+Q4.project[anom](select[Acoul='vert'](Articles));
+
+Q5.project[aid](select[prix<20](Catalogue));
+
+Q6.project[fid](select[prix<20](Catalogue));
+
+Q7.project[fid](select[prix>10 AND prix < 20](Catalogue));
+
+Q8.(project[fid](select[prix<20](Catalogue) intersect select[prix>10](Catalogue)));
+
+Q9.(project[anom](select[acoul='rouge'](Articles) union  select[acoul='vert'](Articles)));
+
+Q10.) '0/'
+
+
